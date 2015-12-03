@@ -52,7 +52,7 @@ var notify = function(error) {
   notifier.notify({title: title, message: message});
 };
 
-// hard to include a clean task since other task must depend on clean task finishes first;
+// NOTE -- hard to include a clean task since other task must depend on clean task finishes first;
 // but then watch task will trigger these other task which will in turn trigger clean, then 
 // files get deleted
 
